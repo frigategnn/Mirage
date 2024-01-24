@@ -57,7 +57,7 @@ std::string get_can_lab_tree(const std::vector<tree_node*> &tree, int root=0){
             child_label.insert(0, std::to_string(it->second));
             child_labels.push_back(child_label);
         }
-        std::sort(child_labels.begin(), child_labels.end(), bin_pred);
+        std::sort(child_labels.begin(), child_labels.end());
         for(std::vector<std::string>::iterator it=child_labels.begin(); it!=child_labels.end(); it++){
             ss << " " << *it;
         }
