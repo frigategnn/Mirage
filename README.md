@@ -26,7 +26,7 @@ Representations (ICLR 2024).
 -   To run Mirage using (a) implementation, navigate to the
     directory. The directory contains a single python script. Just run it.
 -   To run Mirage using implementation (b) first complete the dependency
-    installation described at [2](#orgd306116), navigate to the
+    installation described [here](#orgd306116), navigate to the
     directory. While being in the main directory run `bash
       scripts/run_<dataset>.sh`. This will produce outputs in the
     `outputs` directory.
