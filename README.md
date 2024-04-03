@@ -45,7 +45,7 @@ Representations (ICLR 2024).
         it can be called inside the Python file. Within each dataset's
         corresponding folder that has a C++ implementation, this PyTorch
         extension is present inside directory called `pygcanl`.
-    3.  To work with `pygcanl`, you need to install it. Run the following
+    3.  To work with `pygcanl`, you need to install it. From within the dataset's directory, run the following
         command: `$ pip install -e pygcanl`.
     4.  If this runs without errors, then that's it, you can run Mirage now.
 
