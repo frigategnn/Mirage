@@ -37,7 +37,7 @@ Representations (ICLR 2024).
 # Dependencies
 
 -   Running Mirage requires `NumPy`, `SciPy`, `PyTorch Geometric`, `PyTorch`,
-    `scikit-learn`, `pyfpgrowth`, `Matplotlib`, and `tqdm` with `Python=3.9` on Linux
+    `NetworkX`, `scikit-learn`, `pyfpgrowth`, `Matplotlib`, and `tqdm` with `Python=5.9` on Linux
     operating systems.
 -   <a id="orgd306116"></a>Specifically for implementation (b):
     1.  You will need to ensure that `1.11<=PyTorch<=1.13` is installed.
